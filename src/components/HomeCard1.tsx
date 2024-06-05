@@ -16,7 +16,7 @@ const HomeCard1: React.FC<CardProps> = ({
   const containerClasses = `flex flex-col xl:flex-row bg-white shadow-lg rounded-lg overflow-hidden py-20 h-full justify-end`;
 
   return (
-    <div className="flex flex-col xl:flex-row bg-white shadow-lg rounded-lg overflow-hidden py-20 h-full">
+    <div className={containerClasses}>
       <div className="w-full h-64 xl:w-7/12 xl:h-auto">
         <img
           src={imageUrl}

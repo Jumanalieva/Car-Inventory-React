@@ -1,6 +1,6 @@
 import { TextField } from '@mui/material';
 import { forwardRef } from 'react';
-import { FieldError, UseFormRegisterReturn } from 'react-hook-form';
+import {  UseFormRegisterReturn } from 'react-hook-form';
 
 interface InputType extends UseFormRegisterReturn {
   name: string;
