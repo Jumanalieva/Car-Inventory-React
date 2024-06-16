@@ -2,7 +2,7 @@ const token = 'bb06ca0390141d1a803413d5f181b783cb5178171be05d03';
 
 export const server_calls = {
     get: async () => { 
-        const response = await fetch(`http://127.0.0.1:5000/api/user_appointment`, {
+        const response = await fetch(`https://car-flask.onrender.com/api/user_appointment`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -18,7 +18,7 @@ export const server_calls = {
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`http://127.0.0.1:5000/api/user_appointment`, {
+        const response = await fetch(`https://car-flask.onrender.com/api/user_appointment`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ export const server_calls = {
     },
 
     update: async (id: string, data: any = {}) => {
-        const response = await fetch(`http://127.0.0.1:5000/api/user_appointment/${id}`, {
+        const response = await fetch(`https://car-flask.onrender.com/api/user_appointment/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -52,7 +52,7 @@ export const server_calls = {
     },
 
     delete: async (id: string) => {
-        const response = await fetch(`http://127.0.0.1:5000/api/user_appointment/${id}`, {
+        const response = await fetch(`https://car-flask.onrender.com/api/user_appointment/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',

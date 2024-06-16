@@ -24,3 +24,5 @@ const Input = forwardRef((props: InputType, ref) => {
 });
 
 export default Input;
+
+
